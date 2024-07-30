@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Button = ({ onClick, children, className = '', disabled = false }) => {
-    const baseClasses = 'py-2 px-4 rounded transition duration-300';
+    const baseClasses = 'py-2 px-4 transition duration-300';
     const disabledClasses = disabled ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer hover:bg-yellow-300';
 
     return (

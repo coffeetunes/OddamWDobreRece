@@ -1,0 +1,13 @@
+@import "../../scss/colors";
+
+.title-text {
+  letter-spacing: -0.76px;
+  line-height: 55px;
+  color: $gray-dark;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -2,8 +2,8 @@ import React from 'react';
 
 const NotFound = () => {
     return (
-        <div>
-            Nie znaleziono
+        <div className="flex items-center justify-center h-72">
+            <p className="text-xl">Nie znaleziono</p>
         </div>
     );
 };

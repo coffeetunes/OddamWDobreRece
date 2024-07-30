@@ -21,7 +21,7 @@ const ExplanationSection = () => {
         <div>
             <div className="threeColumns">
                 <Container>
-                    <div className="threeColumns-container">
+                    <div className="threeColumns-container"  id="explanation">
                         <ElementWithNumber number="10" title="ODDANYCH WORKÓW">
                             Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra
                             elementuma. Aliquam erat volutpat.

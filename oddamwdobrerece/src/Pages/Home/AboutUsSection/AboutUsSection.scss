@@ -1,0 +1,43 @@
+@import "../../../scss/colors";
+
+.about-us-section {
+  height: 935px;
+  display: flex;
+}
+
+.left-section {
+  width: 50%;
+  background-color: $background-color-light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+    p {
+      font-size: 30px;
+      line-height: 54px;
+      letter-spacing: -0, 6px;
+      text-align: center;
+      color: $gray-dark;
+      display: block;
+      max-width: 650px;
+
+  }
+}
+
+.right-section {
+  width: 50%;
+  background-image: url('../../../assets/People.jpg'); // Upewnij się, że ścieżka do obrazka jest poprawna
+  background-size: cover;
+  background-position: center;
+}
+
+.signature {
+  align-self: flex-end;
+}

@@ -1,0 +1,24 @@
+@import "../../../scss/colors";
+.threeColumns {
+  background-image: url('../../../assets/3 Columns Background.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 20px 0;
+  margin-bottom: 55px;
+&-container {
+  display: flex;
+  justify-content: space-between;
+}
+}
+
+.fourColumns {
+  background-color: $background-color-light;
+  width: 100%;
+  margin-top: 40px;
+  padding-top: 73px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 175px;
+}

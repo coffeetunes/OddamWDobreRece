@@ -1,0 +1,35 @@
+@import "../../scss/colors";
+
+.element {
+  &-container {
+    margin-top: 46px;
+    margin-bottom: 86px;
+    color: $gray-dark;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  &-number {
+    font-size: 90px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+  }
+
+  &-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.36px;
+  }
+
+  &-content {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    line-height: 26px;
+  }
+}

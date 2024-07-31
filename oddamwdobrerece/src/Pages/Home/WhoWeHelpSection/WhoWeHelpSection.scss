@@ -1,0 +1,80 @@
+@import "../../../scss/fonts";
+
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+
+  button {
+    font-size: 24px;
+    margin: 0 10px;
+    width: 208px;
+    padding: 11px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &.active {
+      border: 1px solid #ccc;
+    }
+  }
+}
+
+.category-description {
+  width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.entries {
+  .entry {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .entry-title {
+      font-family: $font-alt;
+      font-weight: 300;
+      font-size: 26px;
+    }
+
+    .entry-description {
+      font-family: $font-alt;
+      font-weight: 300;
+      font-size: 18px;
+      font-style: italic;
+      margin: 5px 0;
+    }
+
+    .entry-items {
+      font-family: $font-alt;
+      font-weight: 300;
+      font-size: 18px;
+      color: #777;
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+
+    &.active {
+      border: 1px solid #ccc;
+    }
+  }
+}

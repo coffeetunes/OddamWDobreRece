@@ -1,14 +1,12 @@
 import React from 'react';
-import RegisterForm from "../../Components/RegisterForm/RegisterForm";
 import Title from "../../Common/Title/Title";
 
-const Register = () => {
+const Logout = () => {
     return (
         <div className="min-h-screen flex justify-center items-center flex-col m-0">
-            <Title>Załóż konto</Title>
-            <RegisterForm />
+            <Title>Wylogowanie nastąpiło<br/>pomyślnie!</Title>
         </div>
     );
 };
 
-export default Register;
+export default Logout;

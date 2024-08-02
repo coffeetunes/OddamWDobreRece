@@ -1,9 +1,12 @@
 import React from 'react';
+import LoginForm from "../../Components/LoginForm/LoginForm";
+import Title from "../../Common/Title/Title";
 
 const Login = () => {
     return (
-        <div className="flex items-center justify-center h-screen">
-            <p className="text-xl">Logowanie</p>
+        <div className="min-h-screen flex justify-center items-center flex-col m-0">
+        <Title>Zaloguj się</Title>
+<LoginForm />
         </div>
     );
 };

@@ -9,6 +9,7 @@ import Footer from "./Components/Footer/Footer";
 import NotFound from "./Pages/NotFound/NotFound";
 import Login from "./Pages/Login/Login";
 import Register from "./Pages/Register/Register";
+import Logout from "./Pages/Logout/Logout";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Routes>
                   <Route path="/" element={<Home/>}/>
                   <Route path="/login" element={<Login/>}/>
+                  <Route path="/logout" element={<Logout/>}/>
                   <Route path="/register" element={<Register/>}/>
                   <Route path="*" element={<NotFound/>}/>
               </Routes>

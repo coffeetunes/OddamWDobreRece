@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './ElementWithNumber.scss';
 
 const ElementWithNumber = ({ number, title, children }) => {
@@ -12,10 +11,5 @@ const ElementWithNumber = ({ number, title, children }) => {
     );
 };
 
-ElementWithNumber.propTypes = {
-    number: PropTypes.number.isRequired,
-    title: PropTypes.string.isRequired,
-    children: PropTypes.node.isRequired,
-};
 
 export default ElementWithNumber;

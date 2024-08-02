@@ -59,7 +59,7 @@ const WhoWeHelpSection = () => {
     const totalPages = category === 'fundations' ? 3 : category === 'organizations' ? 2 : 1;
 
     return (
-        <div className="mt-16" id="whowehelp">
+        <div className="mt-16 mb-24" id="whowehelp">
             <Container>
                 <Title>Komu pomagamy?</Title>
                 <div className="category-buttons">

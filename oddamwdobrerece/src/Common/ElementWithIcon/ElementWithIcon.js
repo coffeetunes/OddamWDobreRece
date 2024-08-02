@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './ElementWithIcon.scss';
 
 const ElementWithIcon = ({ iconSrc, title, content }) => {
@@ -14,10 +13,5 @@ const ElementWithIcon = ({ iconSrc, title, content }) => {
     );
 };
 
-ElementWithIcon.propTypes = {
-    number: PropTypes.number.isRequired,
-    title: PropTypes.string.isRequired,
-    children: PropTypes.node.isRequired,
-};
 
 export default ElementWithIcon;
